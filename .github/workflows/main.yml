@@ -32,7 +32,7 @@ jobs:
       with:
         host: ${{ secrets.SSH_HOST }}
         username: ${{ secrets.SSH_USER }}
-        port: ${{ sercrets.SSH_PORT }}
+        port: ${{ secrets.SSH_PORT }}
         key: ${{ secrets.SSH_KEY }}
         source: ".,!node_modules"
         target: "~/app/GoBarberV2"
